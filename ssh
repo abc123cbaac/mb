@@ -7,6 +7,6 @@ ssh-keygen -t ecdsa -C "abc123cbaac@yandex.com"
 
 ssh-add ~/.ssh/ed2
 
-
+eval "$(ssh-agent -s)"
 ssh -T git@github.com
 
