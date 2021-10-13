@@ -4,3 +4,9 @@ if failed
 ssh-keygen -t ecdsa -C "abc123cbaac@yandex.com"
 
 
+
+ssh-add ~/.ssh/ed2
+
+
+
+
