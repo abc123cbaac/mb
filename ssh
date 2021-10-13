@@ -1,1 +1,6 @@
 ssh-keygen -t ed25519 -C "abc123cbaac@yandex.com"
+
+if failed
+ssh-keygen -t ecdsa -C "abc123cbaac@yandex.com"
+
+
